@@ -1,5 +1,5 @@
-pipeline{
-    agent{
+pipeline {
+    agent {
         image 'maven:3-alphine'
         args '-v /root/.m2:/root/.m2'
     }
